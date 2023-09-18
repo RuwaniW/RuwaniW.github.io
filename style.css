@@ -1,0 +1,24 @@
+body {
+    background: #71d567;
+  }
+  p {
+    color: #cc158e;
+    font-family: sans-serif;
+    text-align: justify
+  }
+  h1 {
+    font-weight: bold;
+    font-family: sans-serif;
+      color:blue;
+      text-align: center;
+      text-decoration: double underline
+  }
+  h2{
+    font-family: sans-serif;
+    color: #030de4;
+      text-decoration: underline
+        
+        
+  }
+  ul{color: #cc158e;
+    font-family: sans-serif}
