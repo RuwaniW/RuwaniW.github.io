@@ -1,0 +1,70 @@
+.container {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex {
+  background: #6ab6d8;
+  padding: 10px;
+  margin-bottom: 50px;
+  border: 3px solid #2e86bb;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+.flex::after {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 100%;
+  margin-top: 10px;
+  width: 100%;
+  color: #333;
+  font-size: 12px;
+}
+
+.flex1 {
+  flex-basis: cute;
+}
+
+.flex1::after {
+  content: "cute";
+}
+
+.flex2 {
+  flex-basis: adorable;
+}
+
+.flex2::after {
+  content: "adorable";
+}
+
+.flex3 {
+  flex-basis: easy;
+}
+
+.flex3::after {
+  content: "easy";
+}
+
+.flex4 {
+  flex-basis: innocent;
+}
+
+.flex4::after {
+  content: "innocent";
+}
+.flex5 {
+  flex-basis: playful;
+}
+
+.flex5::after {
+  content: "playful";
+}
+
