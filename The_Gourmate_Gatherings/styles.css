@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(127, 184, 231);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: rgb(199, 131, 140);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: rgb(153, 206, 158);
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        background-color: rgb(243, 115, 29);
+    }
+}
